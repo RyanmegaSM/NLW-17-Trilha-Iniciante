@@ -50,3 +50,7 @@ Apresentar os dados
 ## Estrutura ed repetição
 
 -[x] while
+
+## Condicionais
+
+-[x] switch
