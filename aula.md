@@ -46,3 +46,7 @@ Apresentar os dados
 [x] Atributos e metodos
 [x]Criação e manipulação de objetos
 [x]Acesso a propriedades de objetos
+
+## Estrutura ed repetição
+
+-[x] while

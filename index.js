@@ -12,7 +12,7 @@ console.log(mensagem);
 console.log(metas[1] + " " + metas[0])
 */
 
-
+/*
 let meta = {
     value: 'Ler um livro por mês',
     checked: false
@@ -31,3 +31,14 @@ console.log(metas[0].value)
 //functions
 
 const criarMeta = () => {} 
+    */
+
+
+const start = ()=>{
+    let count = 0;
+    while(count <= 10){
+        console.log(count)
+        count++;
+    }
+}
+    start()
