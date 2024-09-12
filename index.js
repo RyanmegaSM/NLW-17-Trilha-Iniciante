@@ -17,8 +17,17 @@ let meta = {
     value: 'Ler um livro por mês',
     checked: false
 }
-console.log(meta.value)
 
+
+let metas = [
+    meta,
+    {value: 'Caminhar 20 minutos todos os dias',
+    checked: false
+    }
+]
+
+
+console.log(metas[0].value)
 //functions
 
 const criarMeta = () => {} 
