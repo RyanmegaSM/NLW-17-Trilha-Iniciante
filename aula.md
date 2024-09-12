@@ -6,13 +6,13 @@ Como um lego, voce ira utilizar peças para criar algoritmos, ou seja, para reso
 
 ## Peças de uma linguagem
 
--[x]Comentarios
--Declaração de variaveis (const, let)
--Operadores (atribuição, concatenação, matematicos, logicos)
--Tipos de dados (string, number, boolean)
--Estrutura de dados (functions, object, arrray)
--Controle de fluxo (if/else)
--Estrutura de repetição (for, while)
+[x]Comentarios
+[x]Declaração de variaveis (const, let)
+[x]Operadores (atribuição, concatenação, matematicos, logicos)
+[x]Tipos de dados (string, number, boolean)
+[x]Estrutura de dados (functions, object, arrray)
+Controle de fluxo (if/else)
+Estrutura de repetição (for, while)
 
 ## Fases da resolução de um problema
 
@@ -22,15 +22,27 @@ Apresentar os dados
 
 ## Escopos e variaveis
 
-Variaveis locais e globais
-Constantes
+[x]Variaveis locais e globais
+[x]Constantes
 
 ## Tipos de dados
 
-Strings (Textos): "" ´´ ``
-Number: 2 / 1.4
-function
+[x]Strings (Textos): "" ´´ ``
+[x]Number: 2 / 1.4
+[x]function
+[x]Boolean
 
 ## Operadores
 
-Opereador de atribuição de valor
+[x]Opereador de atribuição de valor
+[x]Operador de contatenação
+
+## arrays
+
+[x]Uma lista que contem tipo de dado
+
+## Objetos
+
+[x] Atributos e metodos
+[x]Criação e manipulação de objetos
+[x]Acesso a propriedades de objetos
