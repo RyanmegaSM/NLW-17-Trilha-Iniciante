@@ -34,8 +34,9 @@ Apresentar os dados
 
 ## Operadores
 
-[x]Opereador de atribuição de valor
-[x]Operador de contatenação
+[x]Opereador de atribuição de valor: =
+[x]Operador de contatenação: +
+[x]Operadores de comparação: ==, !=, <, >, <=, >=
 
 ## arrays
 
@@ -53,9 +54,14 @@ Apresentar os dados
 
 ## Condicionais
 
--[x] switch
+[x] switch
+[x]if/else
 
 ## Modulos em node.js
 
 [x]Importação de modulos (require, CommonJS)
 [x]Biblioteca 'inquirer' para criar prompts interativos
+
+## Programação assincrona e Promises
+
+[x]Uso de funções assincronas (async/await)
