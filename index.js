@@ -33,7 +33,7 @@ console.log(metas[0].value)
 const criarMeta = () => {} 
     */
 
-const {select, input} = require('@inquirer/prompts')
+const {select, input, checkbox} = require('@inquirer/prompts')
 
 let meta = {
     value: "Tomar 3l de agua por dia",
@@ -56,6 +56,30 @@ const cadastrarMeta = async() =>{
     metas.push({value: meta, checked:false})
 }
 
+
+const listarMetas = async() =>{
+    const respostas = await checkbox({
+        message: "Use setas para mudar a meta, espaço para marcar/desmarcar e o Enter para finalizar",
+        choices:[...metas],
+        instructions: false,
+    })
+     if(respostas.length == 0){
+        console.log("Nenhuma meta selecioanada")
+        return
+     }
+
+     metas.forEach((m) => {
+        m.checked = false
+     })     
+     respostas.forEach((resposta)=> {
+        const meta = metas.find((m) => {
+            return m.value == resposta
+        })
+        meta.checked = true
+     })
+
+     console.log("Meta(s) concluida(s)")
+}
 
 const start = async()=>{
    while(true){
@@ -85,8 +109,7 @@ const start = async()=>{
             console.log(metas)
             break
         case "listar":
-            console.log("Vamos listar")
-            return listar()
+          await listarMetas()
             break
         case "sair":
         console.log("Até a proxima")   
