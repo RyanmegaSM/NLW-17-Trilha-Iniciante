@@ -37,10 +37,12 @@ Apresentar os dados
 [x]Opereador de atribuição de valor: =
 [x]Operador de contatenação: +
 [x]Operadores de comparação: ==, !=, <, >, <=, >=
+[x]spread operator: ...
 
 ## arrays
 
 [x]Uma lista que contem tipo de dado
+[x]Metodos de array
 
 ## Objetos
 
